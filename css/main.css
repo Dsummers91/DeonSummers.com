@@ -1,0 +1,90 @@
+body {
+		background: #348cb2 url("/images/bg.jpg");
+    background-size: cover;
+		background-repeat: none;
+		height: 100%;
+    width:100%;
+		opacity: 1;
+		position: fixed;
+	}
+  
+#transition-background {
+  background-position-x: 25%; 
+  background-position-y: 0%;
+}
+
+.no-style {
+  text-decoration: none;
+  color: black;
+}
+
+content {
+  position: fixed;
+  top: 20%;
+  width: 100%;
+  font-size: x-large;
+  
+}
+h1 ,h4 {
+  margin-bottom: 5px;
+  margin-top: 5px;
+  font-family: 'Open Sans', sans-serif;
+  font-style: italic;
+}
+
+.text-center {
+  text-align: center;
+}
+
+
+.margin-right {
+  margin-right: 70%;
+}
+.margin-left {
+  margin-left: 100%;
+}
+
+.margin-right {
+  margin-right: 100%;
+}
+
+.clearfix {
+  clear: both;
+}
+
+#button-container {
+  margin: 0 auto;
+  display: inline-block;
+  margin-top: 80px;
+}
+
+#tagline-container {
+  position: absolute;
+  width: 100%;
+  clear: both
+}
+
+h4[inactive] {
+  opacity: 0;
+  overflow: visible;
+  max-height:  0px;
+  text-overflow: hidden;
+  -webkit-transition:1s;
+  -moz-transition:1s;
+  transition:1s;
+}
+
+h4[active] {
+  overflow: visible;
+  max-height:  0px;
+  display: block;
+  white-space: nowrap;
+  margin-left: 0;
+  margin-right: 0;
+  -webkit-transition:4s 1s;
+  -moz-transition:4s 1s;
+  transition:4s 1s;
+}
+
+
+/** RESUME **/
